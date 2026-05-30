@@ -22,8 +22,11 @@ class Program
         //arrays arrays = new arrays();
         //arrays.show();
 
-        Exceptions exceptions = new Exceptions ();
-        exceptions.show();
+        //Exceptions exceptions = new Exceptions ();
+        //exceptions.show();
+
+        collections collections = new collections();
+        collections.show();
 
 
 
