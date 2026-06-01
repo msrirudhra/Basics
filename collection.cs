@@ -21,16 +21,17 @@ class collections
 
         //}
 
-    //    Dictionary<int, string> students = new Dictionary<int, string>();
+        //    Dictionary<int, string> students = new Dictionary<int, string>();
 
-    //    students.Add(1, "jaa"); 
-    //    students.Add(2, "ram");
-    //    students.Add(3, "umar");
+        //    students.Add(1, "jaa"); 
+        //    students.Add(2, "ram");
+        //    students.Add(3, "umar");
 
-    //    foreach(var student in students)
-    //    {
-    //        Console.WriteLine(student.Key +":" +  student.Value);
-    //    }
-    //}
+        //    foreach(var student in students)
+        //    {
+        //        Console.WriteLine(student.Key +":" +  student.Value);
+        //    }
+        //}
+    }
 }
 
