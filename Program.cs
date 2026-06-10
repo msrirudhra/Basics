@@ -1,9 +1,10 @@
 ﻿using Basics;
 using System;
+using System.Threading.Tasks;
 
 class Program
 {
-    static void Main()
+    static async Task Main()
     {
         //variable variable = new variable();
         // variable.show();
@@ -17,7 +18,7 @@ class Program
         //loops loops = new loops();
         //loops.Show();
 
-        //method methos = new method();
+        //method method = new method();
         //methos.display();
 
         //arrays arrays = new arrays();
@@ -57,15 +58,38 @@ class Program
         //Employee emp = new Employee();
 
         //        emp.ShowEmployeeInfo();
-        MathOperations math = new MathOperations();
+        //MathOperations math = new MathOperations();
 
-        Console.WriteLine(math.Add(10, 20));
-        Console.WriteLine(math.Add(10, 20, 30));
+        //Console.WriteLine(math.Add(10, 20));
+        //Console.WriteLine(math.Add(10, 20, 30));
 
-        Car car = new Car();
+        //Car car = new Car();
 
-        car.Start();
-    
+        //car.Start();
 
-}
+        //lambda lambda = new lambda();
+        //lambda.Hello();
+
+        //linqs linqs = new linqs();
+        //linqs.Show();
+
+        // Programs Programs = new Programs();
+
+        //await Programs.Show();
+
+        //int  amount = await Programs.CheckBalance();
+
+        //Console.WriteLine(amount);
+
+        Programs Programs = new Programs();
+        await Programs.method1();
+
+        Programs programs = new Programs();
+        await programs.method2();
+
+
+
+
+
+    }
 }
