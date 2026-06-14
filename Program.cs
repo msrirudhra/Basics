@@ -1,10 +1,12 @@
 ﻿using Basics;
 using System;
+using System.Reflection;
 using System.Threading.Tasks;
+
 
 class Program
 {
-    static async Task Main()
+    static void Main()
     {
         //variable variable = new variable();
         // variable.show();
@@ -81,15 +83,67 @@ class Program
 
         //Console.WriteLine(amount);
 
-        Programs Programs = new Programs();
-        await Programs.method1();
+        //Programs Programs = new Programs();
+        //await Programs.method1();
 
-        Programs programs = new Programs();
-        await programs.method2();
+        //Programs programs = new Programs();
+        //await programs.method2();
+
+        //Task task = Task.Run(() =>
+        //{
+        //    Console.WriteLine("task running");
+        //});
+
+        //task.Wait();
+
+        //Task <int> task = Task.Run(() =>
+        //{
+        //    return 200;
+        //});
+
+        //Console.WriteLine( task.Result);
+
+        //Emailservice email = new Emailservice();
+
+        //Userservices user = new Userservices(email);
+
+        //user.Register();
+
+
+        //Messageservice message = new Messageservice();
+
+        //studentservices student = new studentservices(message);
+
+        //student.Display();
+
+        //{
+        //    Employee emp = new Employee(1, "Rudhra");
+
+        //    Console.WriteLine(emp.id);
+        //    Console.WriteLine(emp.name);
+        //}
+
+        //Type type = typeof(emplo);
+        //PropertyInfo[] properties = type.GetProperties();
+
+      
+
+
+        //foreach (PropertyInfo property in properties)
+        //{
+        //    Console.WriteLine(property.Name);
+        //}
 
 
 
 
+        Type type = typeof(emplo);
+        MethodInfo[] methods = type.GetMethods();
+
+        foreach (MethodInfo method in methods) {
+            Console.WriteLine(method.Name);
+
+        }
 
     }
 }
