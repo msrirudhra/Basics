@@ -26,17 +26,21 @@ class Programs
     //}
 
 
-    public async Task method1()
+    //public async Task method1()
 
-    {
-        await Task.Delay(5000);
-        Console.WriteLine("method1");}
+    //{
+    //    await Task.Delay(5000);
+    //    Console.WriteLine("method1");}
 
-    public async Task method2()
-    {
+    //public async Task method2()
+    //{
 
-        await Task.Delay(2000);
-        Console.WriteLine("method2");
+    //    await Task.Delay(2000);
+    //    Console.WriteLine("method2");
 
-    }
+    //}
+
+
+
+
 }
